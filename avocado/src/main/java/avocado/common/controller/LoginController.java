@@ -27,6 +27,7 @@ public class LoginController {
             @RequestParam("user_pw") String pw,CommandMap commandMap) throws Exception {
 		ModelAndView mv = new ModelAndView("/common/main");
 		
+		//login
         Map<String, Object> map = new HashMap<String, Object>();
         map.put("id", id);
         map.put("pw", pw);

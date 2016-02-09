@@ -20,6 +20,8 @@
 				  ,user_pw
 				  ,user_role
 			 from tb_user
+			where user_id = #{id}
+			  and user_pw = #{pw}
         ]]>
     </select>
      

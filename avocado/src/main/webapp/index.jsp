@@ -17,7 +17,7 @@ $(document).ready(function(){
 </script>
 </head>
 <body>
-Hello, DoGodSoft!
+Hello, Welcome To DoGodSoft!
 <form id="loginForm" name="loginForm" action="<c:url value='/common/login.do'/>" method="post">
 	<input type="text" id="user_id" name="user_id" value="tkay369" placeholder="아이디" />
 	<input type="password" id="user_pw" name="user_pw" value="ktk" placeholder="비밀번호" />
